@@ -6,9 +6,14 @@ body {
 
 .heading {
   background-image: url("./resources/images/the-flatiron-building.png");
-  background-color: black;
+  background-color: lightgray;
 }
-
+.sectionformatting {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+}
+]
 h1 {
   font-size: 70px;
   font-weight: bold;
