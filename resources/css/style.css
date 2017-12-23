@@ -5,8 +5,9 @@ body {
 }
 
 .heading {
-  background-image: url("./resources/images/the-flatiron-building.png");
-  background-color: lightgray;
+  color: white;
+  background-image: url("../images/the-flatiron-building.png");
+  background-repeat: no-repeat;
 }
 .sectionformatting {
   font-size: 23px;
@@ -14,10 +15,14 @@ body {
   color: white;
 }
 
+nav, a {
+  font-size: 18px;
+  color: white;
+}
+
 h1 {
   font-size: 70px;
   font-weight: bold;
-  color: white;
 }
 
 h2 {
@@ -28,11 +33,6 @@ h2 {
 h4 {
   font-size: 23px;
   font-weight: bold;
-}
-
-a {
-  font-size: 18px;
-  color: white;
 }
 
 .footer {

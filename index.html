@@ -6,20 +6,18 @@
     <title>Broadway</title>
   </head>
   <body>
-    <section class="heading">
+    <div class="heading">
       <h1>Broadway Design</h1>
-      <br>
-      <p>
-        <a>Home</a><br><br>
-        <a>About</a><br><br>
-        <a>Work</a><br><br>
-        <a>Team</a><br><br>
-        <a>Contact</a>
-      </p>
-    </section>
+        <nav>
+          <p><a class="nav" href="#">Home</a></p>
+          <p><a class="nav" href="#process">Process</a></p>
+          <p><a class="nav" href="#work">Work</a></p>
+          <p><a class="nav" href="#team">Team</a></p>
+          <p><a class="nav" href="#contact">Contact</a></p>
+        </nav>
+    </div>
 
-    <section>
-      <h2>Our Process</h2>
+      <h2 id="process">Our Process</h2>
 
       <img src="./resources/images/identify.svg" alt="identify image">
       <h4>Identify</h4>
@@ -37,18 +35,23 @@
         <p class="sectionformatting">Designed in New York</p>
       </div>
 
-      <h4>Portfolio</h4>
+      <h4 id="work">Portfolio</h4>
         <p>Coming Soon</p>
 
-      <h4>Team</h4>
+      <h4 id="team">Team</h4>
         <p>We're Hiring!</p>
 
-      <h4>Contact</h4>
+      <h4 id="contact">Contact</h4>
         <p>Phone: (555)-555-5555<br>E-mail: test@example.com<br>Twitter:@test</p>
-      </section>
+  
 
       <section>
-        <p class="footer">&copy; Broadway 2016 <a>Home</a><a>About</a><a>Work</a><a>Team</a><a>Contact</a></p>
+        <p class="footer">&copy; Broadway 2016
+          <a class="nav" href="#">Home</a>
+          <a class="nav" href="#process">Process</a>
+          <a class="nav" href="#work">Work</a>
+          <a class="nav" href="#team">Team</a>
+          <a class="nav" href="#contact">Contact</a>
       </section>
 
 
